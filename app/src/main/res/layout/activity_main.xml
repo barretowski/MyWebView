@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="#025FFF"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
@@ -19,8 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:gravity="center"
-            android:text="Button" />
+            android:text="Inicio" />
     </LinearLayout>
 
     <WebView
